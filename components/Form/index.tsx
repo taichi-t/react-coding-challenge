@@ -119,10 +119,8 @@ const validateFormInputFirstName = (firstName: unknown): string => {
   return error;
 };
 const validateFormInputLastName = (lastName: unknown): string => {
-  console.log({ lastName });
   let error = "";
   if (lastName === "") {
-    console.log(lastName === "");
     error = "姓が入力されていません";
   }
   return error;
