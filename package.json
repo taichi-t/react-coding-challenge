@@ -9,6 +9,7 @@
     "serve-storybook": "serve storybook-static"
   },
   "dependencies": {
+    "@unocss/reset": "^0.50.0",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,9 +23,14 @@
     "@storybook/builder-webpack5": "^6.4.9",
     "@storybook/manager-webpack5": "^6.4.9",
     "@storybook/react": "^6.4.9",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.3",
+    "postcss-loader": "^7.0.2",
     "serve": "13.0.2",
     "storybook-addon-next": "1.3.1",
+    "style-loader": "^3.3.1",
     "typescript": "4.5.5"
   }
 }

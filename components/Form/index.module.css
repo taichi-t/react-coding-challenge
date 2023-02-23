@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root > * + * {
+  margin-top: 10px;
+}
+
+.submitButton {
+  display: block;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.formItem > * + * {
+  margin-left: 10px;
+}
+
+.errorText {
+  font-size: 12px;
+  color: red;
+}
